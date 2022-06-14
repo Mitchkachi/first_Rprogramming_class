@@ -1,11 +1,11 @@
 # EXERCISES 3.8
 
-#1) GENERATE AND PRINT 50 RANDOM INTERGERS EACH BETWEEN 3 AND 6
+#1) 
 
 valz <- sample(3:6, 50, replace = T)
 print(valz)
 
-#2) GENERATE AND PRINT a RANDOM number (x) between 1 and 50, a RANDOM number (y) between 2 and 5 and compute x**y
+#2) 
 
 x <- sample(1:50, 1)
 print(x)
@@ -16,7 +16,7 @@ print(y)
 z <- (x**y)
 print(z)
 
-#3) GENERATE AND PRINT a RANDOM number between 1 and 10 that prints your name that many times
+#3) 
 
 name_val <- "mitch"
 value <- sample(1:10, 1)
@@ -24,14 +24,14 @@ for (i in 1:value) {
   print(name_val)
 }
 
-#4) GENERATE AND PRINT a RANDOM decimal number between 1 and 10 with two decimal place of accuracy
+#4) 
 
 g <- runif(1, 1, 10)
 r <- round(g, 2)
 print(r)
 
 
-#5) GENERATE AND PRINT 50 random numbers such that the first between 1 and 2,
+#5) 
 # the second is between 1 and 3,
 # the third is between 1 and 4...,
 #and the last is eventually between 1 and 51
@@ -43,7 +43,8 @@ for (i in range_num) {
 }
 
 
-#6) write a program that asks the user to enter two numbers, x and y, and computes |x-y|/x+y
+#6) 
+
 x <- as.numeric(readline(prompt = "enter first numer: "))
 y <- as.numeric(readline(prompt = "enter second number: "))
 z <- x - y
